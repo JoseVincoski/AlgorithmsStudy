@@ -1,5 +1,0 @@
-C:\Users\temp\Desktop\Todas as Pastas\Projetos Pessoais\Algoritmos\EstudoAlgoritmos\BinarySearch\obj\Debug\net6.0\SearchAlgorithms.csproj.AssemblyReference.cache
-C:\Users\temp\Desktop\Todas as Pastas\Projetos Pessoais\Algoritmos\EstudoAlgoritmos\BinarySearch\obj\Debug\net6.0\SearchAlgorithms.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\temp\Desktop\Todas as Pastas\Projetos Pessoais\Algoritmos\EstudoAlgoritmos\BinarySearch\obj\Debug\net6.0\SearchAlgorithms.AssemblyInfoInputs.cache
-C:\Users\temp\Desktop\Todas as Pastas\Projetos Pessoais\Algoritmos\EstudoAlgoritmos\BinarySearch\obj\Debug\net6.0\SearchAlgorithms.AssemblyInfo.cs
-C:\Users\temp\Desktop\Todas as Pastas\Projetos Pessoais\Algoritmos\EstudoAlgoritmos\BinarySearch\obj\Debug\net6.0\SearchAlgorithms.csproj.CoreCompileInputs.cache
