@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AlgorithmExecutionBase/1.0.0": {
+        "dependencies": {
+          "Repository": "1.0.0",
+          "SearchAlgorithms": "1.0.0"
+        },
+        "runtime": {
+          "AlgorithmExecutionBase.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "runtime": {
+          "Repository.dll": {}
+        }
+      },
+      "SearchAlgorithms/1.0.0": {
+        "dependencies": {
+          "Repository": "1.0.0"
+        },
+        "runtime": {
+          "SearchAlgorithms.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AlgorithmExecutionBase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SearchAlgorithms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

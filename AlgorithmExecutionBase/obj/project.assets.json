@@ -1,0 +1,136 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Helpers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "UserInterfaceManager": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Helpers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Helpers.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
+        }
+      },
+      "UserInterfaceManager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserInterfaceManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserInterfaceManager.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Helpers/1.0.0": {
+      "type": "project",
+      "path": "../Helpers/Helpers.csproj",
+      "msbuildProject": "../Helpers/Helpers.csproj"
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "path": "../Repository/Repository.csproj",
+      "msbuildProject": "../Repository/Repository.csproj"
+    },
+    "UserInterfaceManager/1.0.0": {
+      "type": "project",
+      "path": "../UserInterfaceManager/UserInterfaceManager.csproj",
+      "msbuildProject": "../UserInterfaceManager/UserInterfaceManager.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Helpers >= 1.0.0",
+      "Repository >= 1.0.0",
+      "UserInterfaceManager >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\temp\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\temp\\Desktop\\Todas as Pastas\\Projetos Pessoais\\AlgorithmsStudy\\AlgorithmExecutionBase\\Algorithms.csproj",
+      "projectName": "Algorithms",
+      "projectPath": "C:\\Users\\temp\\Desktop\\Todas as Pastas\\Projetos Pessoais\\AlgorithmsStudy\\AlgorithmExecutionBase\\Algorithms.csproj",
+      "packagesPath": "C:\\Users\\temp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\temp\\Desktop\\Todas as Pastas\\Projetos Pessoais\\AlgorithmsStudy\\AlgorithmExecutionBase\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\temp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/Reasonium/_packaging/reasonium-beta/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\temp\\Desktop\\Todas as Pastas\\Projetos Pessoais\\AlgorithmsStudy\\Helpers\\Helpers.csproj": {
+              "projectPath": "C:\\Users\\temp\\Desktop\\Todas as Pastas\\Projetos Pessoais\\AlgorithmsStudy\\Helpers\\Helpers.csproj"
+            },
+            "C:\\Users\\temp\\Desktop\\Todas as Pastas\\Projetos Pessoais\\AlgorithmsStudy\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\temp\\Desktop\\Todas as Pastas\\Projetos Pessoais\\AlgorithmsStudy\\Repository\\Repository.csproj"
+            },
+            "C:\\Users\\temp\\Desktop\\Todas as Pastas\\Projetos Pessoais\\AlgorithmsStudy\\UserInterfaceManager\\UserInterfaceManager.csproj": {
+              "projectPath": "C:\\Users\\temp\\Desktop\\Todas as Pastas\\Projetos Pessoais\\AlgorithmsStudy\\UserInterfaceManager\\UserInterfaceManager.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
